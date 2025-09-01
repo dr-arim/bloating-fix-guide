@@ -1472,3 +1472,14 @@ html {
   overflow-x: hidden;
   box-sizing: border-box;
 }
+/* Fix Container Overflow */
+.hero, .section {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
