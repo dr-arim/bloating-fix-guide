@@ -1455,3 +1455,20 @@ html {
 .fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
 }
+
+/* Chart Images Styling */
+.chart-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.hero, .section {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
